@@ -1,1 +1,1 @@
-A project in order to understand how to implement twitter bootstrap.
+A project done in order to understand how to implement twitter bootstrap.
