@@ -22,3 +22,9 @@ group :development do
   gem 'better_errors'
   gem 'quiet_assets'
 end
+
+group :production do
+  gem 'pg'
+  gem 'thin'
+  gem 'rails_on_heroku'
+end
