@@ -4,7 +4,7 @@ class Visitor < ActiveRecord::Base
   column :comment, :string
   validates_presence_of :favorite
 
-  IMAGE_LABELS = ['Bill Murray', 'Vanilla Ice', 'Nicolas Cage']
+  IMAGE_LABELS = ['San Francisco', 'Sydney', 'Copenhagen']
 
   def update_spreadsheet
     connection = GoogleDrive.login(ENV["GMAIL_USERNAME"], ENV["GMAIL_PASSWORD"])
